@@ -16,19 +16,19 @@ document.addEventListener('DOMContentLoaded', function() {
 const data = [
     {
         type: "Proyecto",
-        name: "App con Python | <i class='bi bi-person-fill'></i> ",
+        name: "App con Python | <i class='bi bi-person-fill'></i> (Jorge)",
         start: 1,
         end: 2,
     },
     {
         type: "Proyecto",
-        name: "Un CRUD | <i class='bi bi-people-fill'></i>",
+        name: "Un CRUD | <i class='bi bi-people-fill'></i> (Alex)",
         start: 3,
         end: 5,
     },
     {
         type: "Proyecto",
-        name: "Web Scraping | <i class='bi bi-person-fill'></i> ",
+        name: "Web Scraping | <i class='bi bi-person-fill'></i> (Jorge & Alex)",
         start: 6,
         end: 7,
     },
@@ -40,7 +40,7 @@ const data = [
     },
     {
         type: "Proyecto",
-        name: "Proyecto de regresión (regresión lineal) | <i class='bi bi-person-fill'></i> ",
+        name: "Problema de regresión (regresión lineal) | <i class='bi bi-person-fill'></i> ",
         start: 9,
         end: 10,
     },
@@ -94,25 +94,25 @@ const data = [
     },
     {
         type: "Tema",
-        name: "<a href='https://github.com/Factoria-F5-dev/python-intro' target='blank'>Introducción a Python<a>, Entornos de desarrollo (Pycharn, Jupyter, Colab, etc.),",
+        name: "<a href='https://github.com/Factoria-F5-dev/python-intro' target='blank'>Introducción a Python<a> (Jorge), Entornos de desarrollo: Pycharn, Jupyter, Colab, etc. (Alex),",
         start: 1,
         end: 1,
     },
     {
         type: "Tema",
-        name: "Buenas prácticas (Programación funcional, OOP, Git, Docker, Testing).",
+        name: "Buenas prácticas: Programación funcional, OOP, Git, Docker, Testing. (Jorge)",
         start: 3,
         end: 3,
     },
     {
         type: "Tema",
-        name: "BBDD (SQL, NoSQL, ORM/ODM) y Despliegue en producción (APIs Rest, Render, Azure).",
+        name: "BBDD: SQL, NoSQL, ORM/ODM y Despliegue en producción: APIs Rest, Render, Azure (Alex)",
         start: 4,
         end: 4,
     },
     {
         type: "Tema",
-        name: "Web Scraping (HTML, CSS, JS, Selenium, Scrapy, DOM)",
+        name: "Web Scraping: HTML, CSS, JS, Selenium, Scrapy, DOM (Jorge & Alex)",
         start: 6,
         end: 6,
     },
