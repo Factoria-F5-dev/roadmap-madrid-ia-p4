@@ -1,6 +1,6 @@
 # Dashboard de estudiantes y mapa de ruta del bootcamp
 
-<iframe src="https://factoria-f5-dev.github.io/roadmap-madrid-ia-p4/" width="100%" height="400"></iframe>
+<img src="./img/roadmap2.png">
 
 <img src="https://img.shields.io/static/v1?label=IA&message=Python&color=orange">
 
