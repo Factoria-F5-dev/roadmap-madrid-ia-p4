@@ -94,7 +94,7 @@ const data = [
     },
     {
         type: "Tema",
-        name: "Introducción a programación (Terminal, Entornos de desarrollo (Pycharn, Jupyter, Colab, etc.), Python (Variables, funciones, gestor de paquetes, entorno virtual, etc.). SCRUM / VUCA).",
+        name: "Introducción a programación (Terminal, Entornos de desarrollo (Pycharn, Jupyter, Colab, etc.), <a href='https://github.com/Factoria-F5-dev/python-intro' target='blank'>Python<a> (Variables, funciones, gestor de paquetes, entorno virtual, etc.). SCRUM / VUCA).",
         start: 1,
         end: 1,
     },
