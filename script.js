@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
 const data = [
     {
         type: "Proyecto",
-        name: "App con Python | <i class='bi bi-person-fill'></i> (Jorge)",
+        name: "App con Python | <i class='bi bi-person-fill'></i> (Alex)",
         start: 1,
         end: 2,
     },
@@ -94,7 +94,7 @@ const data = [
     },
     {
         type: "Tema",
-        name: "<a href='https://github.com/Factoria-F5-dev/python-intro' target='blank'>Introducción a Python<a> (Jorge), Entornos de desarrollo: Pycharn, Jupyter, Colab, etc. (Alex),",
+        name: "<a href='https://github.com/Factoria-F5-dev/python-intro' target='blank'>Introducción a Python<a> (Alex), Entornos de desarrollo: Pycharn, Jupyter, Colab, etc. (Alex),",
         start: 1,
         end: 1,
     },
