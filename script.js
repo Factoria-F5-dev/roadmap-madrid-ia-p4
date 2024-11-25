@@ -28,7 +28,7 @@ const data = [
     },
     {
         type: "Proyecto",
-        name: "Web Scraping | <i class='bi bi-person-fill'></i> (Jorge & Alex)",
+        name: "Web Scraping | <i class='bi bi-person-fill'></i> (Jorge)",
         start: 6,
         end: 7,
     },
@@ -112,7 +112,7 @@ const data = [
     },
     {
         type: "Tema",
-        name: "Web Scraping: HTML, CSS, JS, Selenium, Scrapy, DOM (Jorge & Alex)",
+        name: "Web Scraping: HTML, CSS, JS, Selenium, Scrapy, DOM (Jorge)",
         start: 6,
         end: 6,
     },
