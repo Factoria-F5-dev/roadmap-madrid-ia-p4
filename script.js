@@ -100,7 +100,7 @@ const data = [
     },
     {
         type: "Tema",
-        name: "Buenas prácticas: Programación funcional, OOP, Git, Docker, Testing. (Jorge)",
+        name: "Buenas prácticas: Programación funcional, OOP, <a href='https://github.com/Factoria-F5-dev/git-flow'>Git</a>, <a href='https://github.com/Factoria-F5-dev/docker'>Docker</a>, Testing. (Jorge)",
         start: 3,
         end: 3,
     },
