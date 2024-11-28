@@ -64,7 +64,7 @@ const data = [
     },
     {
         type: "Proyecto",
-        name: "Tracks (Data Analist, Data Engineer, AI Developer) | <i class='bi bi-people-fill'></i>",
+        name: "Tracks (Data Analyst, Data Engineer, AI Developer) | <i class='bi bi-people-fill'></i>",
         start: 20,
         end: 23,
     },
