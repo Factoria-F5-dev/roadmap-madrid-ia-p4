@@ -84,6 +84,10 @@ body {
     color: black;
 }
 
+.certificate-course {
+    background-color: #5d9cc0;
+}
+
 #gantt-table td.block.tema {
     background-color: #5dc083;
 }

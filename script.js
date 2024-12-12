@@ -21,14 +21,50 @@ const data = [
         end: 2,
     },
     {
+        type: "Tema",
+        name: "<a href='https://github.com/Factoria-F5-dev/python-intro' target='blank'>Introducción a Python<a> (Alex), Entornos de desarrollo: Pycharn, Jupyter, Colab, etc. (Alex),",
+        start: 1,
+        end: 2,
+    },
+    {
+        type: "Tema",
+        name: "<a href='https://github.com/Factoria-F5-dev/functional-programing' target='blank'>Programación funcional</a>, OOP, <a href='https://github.com/Factoria-F5-dev/git-flow'>Git</a>, <a href='https://github.com/Factoria-F5-dev/docker'>Docker</a>, Testing. (Jorge)",
+        start: 1,
+        end: 2,
+    },
+    {
+        type: "Course",
+        name: "Cursos de Python de Microsofti",
+        start: 1,
+        end: 2,
+    },
+    {
         type: "Proyecto",
         name: "Un CRUD | <i class='bi bi-people-fill'></i> (Alex)",
         start: 3,
         end: 5,
     },
     {
+        type: "Tema",
+        name: "BBDD: <a href='https://github.com/Factoria-F5-dev/mysql' target='blank'>SQL (Mysql)</a>, <a href='https://github.com/Factoria-F5-dev/mongo' target='blank'>NoSQL (Mongo)</a>, ORM/ODM y Despliegue en producción: APIs Rest, Render, Azure (Alex)",
+        start: 3,
+        end: 5,
+    },
+    {
+        type: "Course",
+        name: "Cursos de Python de CISCO",
+        start: 3,
+        end: 5,
+    },
+    {
         type: "Proyecto",
         name: "Web Scraping | <i class='bi bi-person-fill'></i> (Jorge)",
+        start: 6,
+        end: 7,
+    },
+    {
+        type: "Tema",
+        name: "Web Scraping: HTML, CSS, JS, Selenium, Scrapy, DOM (Jorge)",
         start: 6,
         end: 7,
     },
@@ -57,6 +93,36 @@ const data = [
         end: 15,
     },
     {
+        type: "Tema",
+        name: "Intro a Análisis exploratorio de Datos (EDA), pandas, numpy, scikitlearn, matplotlib, visualización de datos.",
+        start: 8,
+        end: 8,
+    },
+    {
+        type: "Tema",
+        name: "Intro a mates y estadística (Derivadas, límites, métricas, distribuciones).",
+        start: 9,
+        end: 10,
+    },
+    {
+        type: "Tema",
+        name: "Intro a machine learning (Tipos de modelos) y regresión lineal (Modelos, entrenamiento, evaluación, regresión lineal).",
+        start: 11,
+        end: 12,
+    },
+    {
+        type: "Tema",
+        name: "Intro a modelo de clasificación binaria (Regresión logística, modelos, entrenamiento, evaluación).",
+        start: 13,
+        end: 15,
+    },
+    {
+        type: "Course",
+        name: "Cursos de Machine Learning de Google",
+        start: 8,
+        end: 15,
+    },
+    {
         type: "Transición",
         name: "Transición flexible",
         start: 16,
@@ -69,94 +135,16 @@ const data = [
         end: 23,
     },
     {
-        type: "Proyecto",
-        name: "NLP (Youtube comments) | <i class='bi bi-people-fill'></i>",
-        start: 24,
-        end: 26,
-    },
-    {
-        type: "Proyecto",
-        name: "LLM (Rag + agentes) | <i class='bi bi-people-fill'></i>",
-        start: 27,
-        end: 29,
-    },
-    {
-        type: "Proyecto",
-        name: "Computer vision | <i class='bi bi-people-fill'></i>",
-        start: 30,
-        end: 32,
-    },
-    {
-        type: "Proyecto",
-        name: "Proyectos Finales | <i class='bi bi-people-fill'></i>",
-        start: 33,
-        end: 36,
-    },
-    {
-        type: "Tema",
-        name: "<a href='https://github.com/Factoria-F5-dev/python-intro' target='blank'>Introducción a Python<a> (Alex), Entornos de desarrollo: Pycharn, Jupyter, Colab, etc. (Alex),",
-        start: 1,
-        end: 1,
-    },
-    {
-        type: "Tema",
-        name: "Buenas prácticas: <a href='https://github.com/Factoria-F5-dev/functional-programing' target='blank'>Programación funcional</a>, OOP, <a href='https://github.com/Factoria-F5-dev/git-flow'>Git</a>, <a href='https://github.com/Factoria-F5-dev/docker'>Docker</a>, Testing. (Jorge)",
-        start: 3,
-        end: 3,
-    },
-    {
-        type: "Tema",
-        name: "BBDD: <a href='https://github.com/Factoria-F5-dev/mysql' target='blank'>SQL (Mysql)</a>, <a href='https://github.com/Factoria-F5-dev/mongo' target='blank'>NoSQL (Mongo)</a>, ORM/ODM y Despliegue en producción: APIs Rest, Render, Azure (Alex)",
-        start: 4,
-        end: 4,
-    },
-    {
-        type: "Tema",
-        name: "Web Scraping: HTML, CSS, JS, Selenium, Scrapy, DOM (Jorge)",
-        start: 6,
-        end: 6,
-    },
-    {
-        type: "Tema",
-        name: "Intro a Análisis exploratorio de Datos (EDA), pandas, numpy, scikitlearn, matplotlib, visualización de datos.",
-        start: 8,
-        end: 8,
-    },
-    {
-        type: "Tema",
-        name: "Intro a mates y estadística (Derivadas, límites, métricas, distribuciones).",
-        start: 9,
-        end: 9,
-    },
-    {
-        type: "Tema",
-        name: "Intro a machine learning (Tipos de modelos) y regresión lineal (Modelos, entrenamiento, evaluación, regresión lineal).",
-        start: 10,
-        end: 10,
-    },
-    {
-        type: "Tema",
-        name: "Intro a modelo de clasificación binaria (Regresión logística, modelos, entrenamiento, evaluación).",
-        start: 13,
-        end: 13,
-    },
-    {
-        type: "Tema",
-        name: "Intro a modelo de clasificación multiclase y ajuste de modelo.",
-        start: 14,
-        end: 14,
-    },
-    {
-        type: "Transición",
-        name: "Transición flexible",
-        start: 16,
-        end: 19,
-    },
-    {
         type: "Tema",
         name: "Intro a los roles IA [Data Analist, Data Engineer, Data Scientist]",
         start: 20,
         end: 20,
+    },
+    {
+        type: "Proyecto",
+        name: "NLP (Youtube comments) | <i class='bi bi-people-fill'></i>",
+        start: 24,
+        end: 26,
     },
     {
         type: "Tema",
@@ -165,16 +153,34 @@ const data = [
         end: 24,
     },
     {
+        type: "Proyecto",
+        name: "LLM (Rag + agentes) | <i class='bi bi-people-fill'></i>",
+        start: 27,
+        end: 29,
+    },
+    {
         type: "Tema",
         name: "Intro a Langchain, LLMs, Embedings, Vector DB.",
         start: 27,
         end: 27,
     },
     {
+        type: "Proyecto",
+        name: "Computer vision | <i class='bi bi-people-fill'></i>",
+        start: 30,
+        end: 32,
+    },
+    {
         type: "Tema",
         name: "Intro a OpenCV, YoloV11.",
         start: 30,
         end: 30,
+    },
+    {
+        type: "Proyecto",
+        name: "Proyectos Finales | <i class='bi bi-people-fill'></i>",
+        start: 33,
+        end: 36,
     },
 ];
 
@@ -238,6 +244,7 @@ function generateGantt() {
         let iconoProject = '<i class="bi bi-briefcase-fill"></i>';
         let iconoTema = '<i class="bi bi-book-fill"></i>';
         let iconoIntegracion = '<i class="bi bi-diagram-3-fill"></i>';
+        let iconCertificate = '<i class="bi bi-arrow-return-right"></i><i class="bi bi-bookmark-check"></i>';
         let icon = '';
 
         if (item.type === "Proyecto") {
@@ -255,6 +262,11 @@ function generateGantt() {
             item.start = item.start ? item.start : lastEnd + 1;
             item.end = item.end ? item.end : item.start + 2;
             icon = iconoIntegracion;
+        }else if (item.type === "Course") {
+            colorClass = "certificate-course";
+            item.start = item.start ? item.start : lastEnd + 1;
+            item.end = item.end ? item.end : item.start + 2;
+            icon = iconCertificate;
         }
 
         lastEnd = item.end;
